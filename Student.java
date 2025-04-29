@@ -17,7 +17,10 @@ class Study{
 }
 
 public class Student{
-    public static void main(String[] args){
+    puSystem.out.println("Creating a new Study object..."); 
+Study S1=new Study("alice",19,"06-07-2005"); 
+System.out.println("Study object created successfully!"); 
+S1.display();blic static void main(String[] args){
         Study S1=new Study("alice",19,"06-07-2005");
         S1.display();
     }
